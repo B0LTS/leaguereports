@@ -1,0 +1,846 @@
+000000.000| ALWAYS| Logging started at 2018-04-16T22:52:13.487
+000000.000| ALWAYS| Application Version:8.7.223.9193 - CL:2239193 - Build Date: Mar 29 2018 - Build Time:18:32:25
+000000.000| ALWAYS| Log file C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_9000_LeagueClientUx.log
+000000.000| ALWAYS| Running LeagueClientUx version 8.7.223.9193
+000000.000|   OKAY| Initial working directory: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy"
+000000.000|   OKAY| Current process: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\LeagueClientUx.exe"
+000000.000|   OKAY| Command line arguments:
+	--release=0.0.0.109
+	--rads-product-directory=C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/deploy/
+	--remoting-auth-token=VC7MjBrtrOOiM55IdJpYQQ
+	--respawn-command=LeagueClient.exe
+	--respawn-display-name=League of Legends
+	--app-port=53888
+	--install-directory=C:/Riot Games/League of Legends/
+	--app-name=LeagueClient
+	--ux-name=LeagueClientUx
+	--ux-helper-name=LeagueClientUxHelper
+	--log-dir=LeagueClient Logs
+	--bugsplat-name=league_client_riotgames_com
+	--bugsplat-platform-id=NA1
+	--app-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_7660_LeagueClient.log
+	--app-pid=7660
+	--no-proxy-server
+000000.000|   OKAY| Memory Monitor enabled:
+000000.000|   OKAY| - update interval 5s
+000000.000|   OKAY| - memory delta threshold 10MiB
+000000.000|   OKAY| - page fault delta threshold 100K
+000000.000|   OKAY| - region count delta threshold 10
+000000.001|   OKAY| Riot::RADS::Reader::RadsMain::Initialize: RADS library initializing with specified working directory "C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/deploy/".
+000000.001|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.001|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/solutionmanifest")
+000000.002|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/configurationmanifest")
+000000.002|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/league_client_en_us/releases/0.0.0.109/releasemanifest")
+000000.003|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/league_client/releases/0.0.0.139/releasemanifest")
+000000.009|   OKAY| Working Set Size: 9MiB Peak: 9MiB   Pagefile Usage: 9MiB Peak: 9MiB   Private Usage: 9MiB
+000000.009|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+000000.009|   OKAY| Committed Total: 126MiB   Committed Image: 116MiB   Committed Mapped: 3MiB   Committed Private: 5MiB   Reserved Total: 32MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 10MiB   Free Total: 3937MiB   Limit: 4095MiB   Largest Free: 2025MiB   Region Count: 506
+000000.009|   OKAY| Page Fault Count: 2K
+000000.022| ALWAYS| Using Ux render executable path: LeagueClientUxRender.exe
+000000.023| ALWAYS| Cef CommandLine: "C:/Riot Games/League of Legends/RADS/projects/league_client/releases/0.0.0.139/deploy/LeagueClientUx.exe" --app-log-file-path="C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_7660_LeagueClient.log" --app-name=LeagueClient --app-pid=7660 --app-port=53888 --browser-subprocess-path=LeagueClientUxRender.exe --bugsplat-name=league_client_riotgames_com --bugsplat-platform-id=NA1 --install-directory="C:/Riot Games/League of Legends/" --lang=en-US --log-dir="LeagueClient Logs" --log-file="C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log" --no-proxy-server --no-sandbox --rads-product-directory="C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/deploy/" --release=0.0.0.109 --remoting-auth-token=VC7MjBrtrOOiM55IdJpYQQ --respawn-command=LeagueClient.exe --respawn-display-name="League of Legends" --ux-helper-name=LeagueClientUxHelper --ux-name=LeagueClientUx --disable-spell-checking --no-displaying-insecure-content
+000000.081| ALWAYS| Initial dpiScale = 1.000000
+000000.081| ALWAYS| Using cookie store at C:/Riot Games/League of Legends/Cookies
+000000.082|   OKAY| Creating browser process.
+000000.083| ALWAYS| App file system path is: C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\
+000000.083| ALWAYS| Plugins file system path used : Plugins\.
+000000.084| ALWAYS| Trying to connect to app process.
+000000.100| ALWAYS| Connected to app process.
+000000.399|   WARN|             Plugin Manager| Plugin desc for rcp-be-lol-premade-voice should specify "hasBundlesAssets"="false" if it doesn't have bundled assets or specify either "globalAssetBundles" or "perLocaleAssetBundles" if it has bundled assets.
+000000.459|   OKAY| Setting mouse intercept hook.
+000000.459|   OKAY| Registering window.
+000000.459|   OKAY| Registering window class R.
+000000.459|   OKAY| Loading icons.
+000000.495|   OKAY| New window requested at 0,0 with dimensions 1280,720.
+000000.499|   OKAY| Creating ux window with url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/bootstrap.html.
+000000.499| ALWAYS| Deleting non-whitelisted cookies
+000000.499|   OKAY| Running message loop.
+000000.502| ALWAYS| Keeping cookie (PREF) with domain (.youtube.com) which matches whitelisted domain (.youtube.com)
+000000.502| ALWAYS| Keeping cookie (VISITOR_INFO1_LIVE) with domain (.youtube.com) which matches whitelisted domain (.youtube.com)
+000000.502| ALWAYS| Deleting cookie (k) with domain (prod02.kaxsdc.com) which does not match whitelist
+000000.579|   OKAY| Creating main WindowAppModule window 1.
+000000.579|   OKAY| Ux window 1 created.
+000000.582|   OKAY| Creating main browser window 1.
+000000.687|   OKAY| render_pid = 11824
+000000.695|   OKAY| OnBeforeBrowse called for https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/bootstrap.html
+000001.347| ALWAYS| Setting zoom to emulate running at 1600x900 (HD+) which is 125% of default
+000001.347|   OKAY| Resizing window 1 from 1280x720 to 1600x900 (1280x720 scaled by 1.250000).
+000001.719| ALWAYS| Backend process is now running.
+000001.779|   OKAY| OnBeforeBrowse called for https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/index.html
+000001.991|   OKAY| Resizing window 1 from 1600x900 to 1600x900 (1280x720 scaled by 1.250000).
+000001.998| ALWAYS| Window 1 is now visible.
+000001.999|   OKAY| Loaded url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/index.html in 217 ms.
+000002.029| ALWAYS| js: WebSocket event: OPEN (https://127.0.0.1:53888/fe/plugin-runner/loader.js:4)
+000002.029| ALWAYS| js: WAMP Handshake complete (https://127.0.0.1:53888/fe/plugin-runner/loader.js:4)
+000002.211| ALWAYS| js: rcp-fe-lol-loading-screen:log getGameflowState fetch resolved in 17.004999999999995 ms +0ms (https://127.0.0.1:53888/fe/lol-loading-screen/init.js:1)
+000002.211| ALWAYS| js: rcp-fe-lol-loading-screen:log initAPI took 27.000000000000057 ms to render the loading spinner +10ms (https://127.0.0.1:53888/fe/lol-loading-screen/init.js:1)
+000002.619|  ERROR| Cannot find the local file for "https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-l10n/moment-locale.js"
+000002.632| ALWAYS| js: moment locale for locale 'en_US' not found, defaulting to 'en' (https://127.0.0.1:53888/fe/lol-l10n/bundle.js:2)
+000003.401|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +0ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000003.406|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +6ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000003.414| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000004.274|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +865ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000004.283| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000004.632|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +358ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000004.739| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000004.776|   WARN| js: ::shadow pseudo-element is deprecated. See https://www.chromestatus.com/features/6750456638341120 for more details.
+000004.886|   OKAY| OnBeforeBrowse called for https://lolstatic-a.akamaihd.net/rso-ui/3.1.0/frames/kount.html?merchantId=108000&sessionId=28472c77062c2d40a2bb424e286f5268&installId=f068e889880c9f4fb487c56e325e6ab8
+000005.009|   OKAY| Working Set Size: 52MiB (+43) Peak: 53MiB (+44)   Pagefile Usage: 30MiB (+21) Peak: 31MiB (+22)   Private Usage: 30MiB (+21)
+000005.134| ALWAYS| js: rcp-fe-lol-loading-screen:log hideLoadingScreen took 2948 ms to hide +3s (https://127.0.0.1:53888/fe/lol-loading-screen/init.js:1)
+000005.179|   WARN| js: /deep/ combinator is deprecated. See https://www.chromestatus.com/features/6750456638341120 for more details.
+000005.360|   OKAY| Window 1 is activated.
+000005.360|   WARN| js: rcp-fe-lol-uikit:warn Calling addResizeListener on a DOM element with its CSS position property set to static will result in it automatically being changed to position: relative. +0ms (https://127.0.0.1:53888/fe/lol-uikit/init.js:1)
+000005.360|   WARN| js: rcp-fe-lol-uikit:warn Calling addResizeListener on a DOM element with its CSS position property set to static will result in it automatically being changed to position: relative. +3ms (https://127.0.0.1:53888/fe/lol-uikit/init.js:1)
+000005.361| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000005.361| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000005.400| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000005.400| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000005.400| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000005.400| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000005.400| ALWAYS| js: From previous event:
+000005.400| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000005.400| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000005.400| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27688)
+000005.400| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000005.400| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000005.400| ALWAYS| js: --- End Multiline ---
+000005.400| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000005.400| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000005.400| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000005.400| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000005.400| ALWAYS| js: From previous event:
+000005.400| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000005.400| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000005.400| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27688)
+000005.400| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000005.400| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000005.400| ALWAYS| js: --- End Multiline ---
+000005.400| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000005.400| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000005.400| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000005.401| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000005.401| ALWAYS| js: From previous event:
+000005.401| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000005.401| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000005.401| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27902)
+000005.401| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000005.401| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000005.401| ALWAYS| js: --- End Multiline ---
+000006.213|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000006.215|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +3ms (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000006.231| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000006.492|   OKAY| OnBeforeBrowse called for https://prod02.kaxsdc.com/logo.htm?m=108000&s=28472c77062c2d40a2bb424e286f5268
+000006.652|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +2s (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000006.653|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +437ms (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000006.810|   OKAY| Loaded url https://prod02.kaxsdc.com/logo.htm?m=108000&s=28472c77062c2d40a2bb424e286f5268 in 100 ms.
+000006.810|   OKAY| Loaded url https://lolstatic-a.akamaihd.net/rso-ui/3.1.0/frames/kount.html?merchantId=108000&sessionId=28472c77062c2d40a2bb424e286f5268&installId=f068e889880c9f4fb487c56e325e6ab8 in 1466 ms.
+000006.883|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-user-experience-settings/init.js:1)
+000006.883|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-user-experience-settings/init.js:1)
+000006.884|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-user-experience-settings/init.js:1)
+000006.886|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-user-experience-settings/init.js:1)
+000006.886|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-user-experience-settings/init.js:1)
+000006.930|  ERROR| js: rcp-fe-lol-user-experience-settings:error _handlePotatoModeRecommendedSettings currentSettings.data is not defined +39ms (https://127.0.0.1:53888/fe/lol-user-experience-settings/init.js:1)
+000006.930|  ERROR| js: rcp-fe-lol-user-experience-settings:error _handleUnloadUxSettings currentSettings.data is not defined +1ms (https://127.0.0.1:53888/fe/lol-user-experience-settings/init.js:1)
+000007.261| ALWAYS| js: gote (https://127.0.0.1:53888/fe/common-libs/bundle.js:29)
+000007.507|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +846ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000007.507|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +847ms (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000007.733|  ERROR| Cannot find the local file for "https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/l10n/moment-locale.js"
+000007.759| ALWAYS| js: moment locale for locale 'en_US' not found, defaulting to 'en' (https://127.0.0.1:53888/fe/l10n/bundle.js:2)
+000007.783|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-service-status/bundle.js:1)
+000007.791|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +8ms (https://127.0.0.1:53888/fe/lol-service-status/bundle.js:1)
+000007.793|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +3ms (https://127.0.0.1:53888/fe/lol-service-status/bundle.js:1)
+000007.793|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-service-status/bundle.js:1)
+000007.805|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-service-status/bundle.js:1)
+000007.961|   WARN| js: rcp-fe-lol-paw:warn something went wrong +0ms (https://127.0.0.1:53888/fe/lol-paw/bundle.js:1)
+000008.027|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +528ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000008.028|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +0ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000008.086|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +58ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000008.086|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +586ms (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000008.137| ALWAYS| js: gote (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:1)
+000008.139| ALWAYS| js: gote (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:1)
+000008.157|   OKAY| OnBeforeBrowse called for https://frontpage.na.leagueoflegends.com/en_US/lol/home/overview?client-language=en
+000008.836|   OKAY| Loaded url https://frontpage.na.leagueoflegends.com/en_US/lol/home/overview?client-language=en in 531 ms.
+000009.632|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +2s (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000010.010|   OKAY| Working Set Size: 70MiB (+18) Peak: 77MiB (+24)   Pagefile Usage: 47MiB (+17) Peak: 54MiB (+23)   Private Usage: 47MiB (+17)
+000010.034|   WARN| js: You are using a deprecated moment API, please use tra.moment (https://127.0.0.1:53888/fe/lol-l10n/bundle.js:1)
+000010.356|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +733ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000010.401|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +40ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000010.692|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.737|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +46ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.758|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +11ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.758|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +8ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.761|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +5ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.766|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +5ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.782|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +7ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.782|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +6ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.789|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +11ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000010.804|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +4ms (https://127.0.0.1:53888/fe/lol-honor/init.js:1)
+000011.402|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":false,"disabledAfterLogin":false,"enabled":false,"showDisconnectedState":true,"showUI":false,"voiceChannelAvailable":false} +0ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000011.430|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":false,"disabledAfterLogin":false,"enabled":false,"showDisconnectedState":true,"showUI":false,"voiceChannelAvailable":false} +28ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000011.538|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +1s (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000011.604|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +65ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000011.936|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +332ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000011.938|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-game-in-progress/init.js:1)
+000011.960|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +19ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000011.960|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +2ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000011.960|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +4ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000011.962|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +2ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000011.963|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +26ms (https://127.0.0.1:53888/fe/lol-game-in-progress/init.js:1)
+000012.028| ALWAYS| js: gote (https://127.0.0.1:53888/fe/lol-game-in-progress/init.js:4)
+000012.033| ALWAYS| js: gote (https://127.0.0.1:53888/fe/lol-game-in-progress/init.js:4)
+000012.166|  ERROR| js: Uncaught (in promise) TypeError: Cannot read property 'displayName' of null (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:3)
+000012.184|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-reconnect-notification/init.js:3)
+000012.231|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.239|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +9ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.239|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.257|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +9ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.257|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +6ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.259|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +5ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.275|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +5ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.275|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +9ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.291|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +18ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.305|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +7ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.308|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +10ms (https://127.0.0.1:53888/fe/lol-player-behavior/bundle.js:1)
+000012.528|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":false,"disabledAfterLogin":false,"enabled":false,"showDisconnectedState":true,"showUI":false,"voiceChannelAvailable":false} +1s (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000012.611|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-loyalty/init.js:1)
+000012.949|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +987ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000012.963|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-store/init.js:1)
+000012.964|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-store/init.js:1)
+000012.977|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `_api` through the options hash. +5s (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000012.977|   WARN| js: rcp-fe-lol-navigation:warn deprecation: addItem should receive `displayNameLocKey` through the options hash. +1ms (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000012.978|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +10ms (https://127.0.0.1:53888/fe/lol-store/init.js:1)
+000013.012|   WARN| js: rcp-fe-lol-navigation:warn A menu item could not be found with the passed key. Please make sure that you are using as the key the object returned by `addMenuItem()` The menu item will now be looked up by `displayNameLocKey`. +40ms (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000013.023| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000013.352|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":false,"showDisconnectedState":false,"showUI":false,"voiceChannelAvailable":false} +831ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000015.990| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.086|   OKAY| OnBeforeBrowse called for https://frontpage.na.leagueoflegends.com/en_US/lol/home/overview?client-language=en#protocol=https:&port=53888
+000016.190|   OKAY| Loaded url about:blank in 0 ms.
+000016.258| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000016.258| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000016.258| ALWAYS| js:     at lol-uikit-section-controller.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:12:22457)
+000016.258| ALWAYS| js:     at lol-uikit-section-controller.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:12:21861)
+000016.259| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:12:21596
+000016.259| ALWAYS| js: From previous event:
+000016.259| ALWAYS| js:     at lol-uikit-section-controller.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:12:21542)
+000016.259| ALWAYS| js:     at lol-uikit-section-controller.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:12:21213)
+000016.259| ALWAYS| js:     at t.s.value (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:3:7096)
+000016.259| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:2:19820
+000016.259| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:2:18789
+000016.259| ALWAYS| js:     at Array.forEach (native)
+000016.259| ALWAYS| js:     at t.r.value (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:2:18767)
+000016.259| ALWAYS| js:     at t.s.value (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:2:17516)
+000016.259| ALWAYS| js:     at t.s.value (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:2:17275)
+000016.259| ALWAYS| js:     at Object.loadFirstTab (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:7:18389)
+000016.259| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:2:5647
+000016.259| ALWAYS| js: --- End Multiline ---
+000016.260| ALWAYS| js: riotclient-lib-subnavigation:log show subsection overview +0ms (https://127.0.0.1:53888/fe/lol-home/rcp-fe-lol-home.js:2)
+000016.273|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000016.290|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +23ms (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000016.336|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +38ms (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000016.336|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +6ms (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000016.342|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +8ms (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000016.353|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +6ms (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000016.353|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +5ms (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000016.479| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-missions:handleLoginSession unlocked after 23ms. +0ms (https://127.0.0.1:53888/fe/lol-lock-and-load/init.js:1)
+000016.537|  ERROR| Cannot find the local file for "https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/lol-game-data/assets/v1/runes.json"
+000016.603|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +4s (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.603|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +2ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.603|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +2ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.620|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +22ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.633|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +5ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.633|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +2ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.638|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +12ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.653|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +14ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.657|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +5ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.663|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +6ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000016.712|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":false,"showDisconnectedState":false,"showUI":false,"voiceChannelAvailable":false} +3s (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000016.988| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000016.988| ALWAYS| js: Unhandled rejection Error: Start playback before trying to fade it out.
+000016.988| ALWAYS| js:     at Object.assign.fadeOut (https://127.0.0.1:53888/fe/audio/init.js:2:7712)
+000016.988| ALWAYS| js:     at t.s.value (https://127.0.0.1:53888/fe/lol-splash/bundle.js:1:24410)
+000016.988| ALWAYS| js:     at e.r.value (https://127.0.0.1:53888/fe/lol-splash/bundle.js:1:18306)
+000016.988| ALWAYS| js:     at e.o.value (https://127.0.0.1:53888/fe/lol-splash/bundle.js:1:16583)
+000016.988| ALWAYS| js:     at e.a.value (https://127.0.0.1:53888/fe/lol-login/bundle.js:1:19057)
+000016.988| ALWAYS| js:     at i.e.exports.o.Ember.Component.extend.processSuccessfulLogin (https://127.0.0.1:53888/fe/lol-login/bundle.js:3:15346)
+000016.988| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-login/bundle.js:3:14883)
+000016.988| ALWAYS| js:     at c.f.get (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:4516)
+000016.988| ALWAYS| js:     at Object.n [as get] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:11799)
+000016.989| ALWAYS| js:     at t.compute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:140:20045)
+000016.989| ALWAYS| js:     at t.value (https://127.0.0.1:53888/fe/ember-libs/bundle.js:140:19275)
+000016.989| ALWAYS| js:     at t.compute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:140:12631)
+000016.989| ALWAYS| js:     at t.e.value (https://127.0.0.1:53888/fe/ember-libs/bundle.js:147:17731)
+000016.989| ALWAYS| js:     at a (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:1406)
+000016.989| ALWAYS| js:     at t.compute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:4015)
+000016.989| ALWAYS| js:     at t.e.value (https://127.0.0.1:53888/fe/ember-libs/bundle.js:147:17731)
+000016.989| ALWAYS| js:     at e.revalidate (https://127.0.0.1:53888/fe/ember-libs/bundle.js:147:18487)
+000016.989| ALWAYS| js:     at e.patch (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:9459)
+000016.989| ALWAYS| js:     at t.evaluate (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:11213)
+000016.989| ALWAYS| js:     at e.execute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:151:26316)
+000016.989| ALWAYS| js:     at e.rerender (https://127.0.0.1:53888/fe/ember-libs/bundle.js:151:25218)
+000016.989| ALWAYS| js:     at e.s.render (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:17397)
+000016.989| ALWAYS| js:     at d (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:16776)
+000016.989| ALWAYS| js:     at t.e._renderRoots (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:20054)
+000016.989| ALWAYS| js:     at t.e._renderRootsTransaction (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:20361)
+000016.989| ALWAYS| js:     at t.e._revalidate (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:20895)
+000016.989| ALWAYS| js:     at s.invoke (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:4540)
+000016.989| ALWAYS| js:     at Object.s.flush (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:5063)
+000016.989| ALWAYS| js:     at Object.u.flush (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:5825)
+000016.989| ALWAYS| js:     at Object.p.end (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:6170)
+000016.989| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7300)
+000016.989| ALWAYS| js:     at Object.p.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7366)
+000016.989| ALWAYS| js:     at Function.l.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:14194)
+000016.989| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/ember-libs/bundle.js:165:16640)
+000016.989| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:5:9921
+000016.989| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:5:16168
+000016.989| ALWAYS| js: --- End Multiline ---
+000017.418|   WARN| js: plugin:champion-select:playerdata:warn availableSpells changed, length is 0 +0ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000017.429|   WARN| js: plugin:champion-select:playerdata:warn champion inventory changed, length is 0 +6ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000017.429|   WARN| js: plugin:champion-select:playerdata:warn pickable champions changed, length is 0 +0ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000017.586|   WARN| js: plugin:champion-select:warn champSelectScreen changing to undefined +157ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000018.637| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-ready-check:initialization unlocked after 1921ms. +2s (https://127.0.0.1:53888/fe/lol-lock-and-load/init.js:1)
+000018.638| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-champ-select:preload unlocked after 2050ms. +1ms (https://127.0.0.1:53888/fe/lol-lock-and-load/init.js:1)
+000018.775|   WARN| js: plugin:replays:register-helper:warn RegisterHelper registered into matchHistoryApi +0ms (https://127.0.0.1:53888/fe/lol-replays/init.js:1)
+000018.775|   WARN| js: plugin:replays:register-helper:warn RegisterHelper registered into postgameApi +1ms (https://127.0.0.1:53888/fe/lol-replays/init.js:1)
+000018.976| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-login:loginAttempt unlocked after 7003ms. +333ms (https://127.0.0.1:53888/fe/lol-lock-and-load/init.js:1)
+000019.103|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +3s (https://127.0.0.1:53888/fe/lol-missions/init.js:1)
+000019.140|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +0ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000019.524| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-parties:registerAndCreateApplication unlocked after 3251ms. +544ms (https://127.0.0.1:53888/fe/lol-lock-and-load/init.js:1)
+000020.011|   OKAY| Working Set Size: 85MiB (+15) Peak: 88MiB (+11)   Pagefile Usage: 61MiB (+14) Peak: 61MiB (+7)   Private Usage: 61MiB (+14)
+000020.186|   WARN| js: rcp-fe-lol-navigation:warn A menu item could not be found with the passed key. Please make sure that you are using as the key the object returned by `addMenuItem()` The menu item will now be looked up by `displayNameLocKey`. +7s (https://127.0.0.1:53888/fe/lol-navigation/rcp-fe-lol-navigation.js:1)
+000020.591|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +1s (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000020.855|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +264ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000020.866|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +9ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000020.884|   WARN| js: plugin:champion-select:playerdata:warn logged in playerID is 19149508 +3s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000022.939|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +2s (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000022.940|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +1ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000023.132|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +6s (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000023.132|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +1ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000023.132|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +0ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000023.132|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +0ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000023.336|   OKAY| Loaded url https://frontpage.na.leagueoflegends.com/en_US/lol/home/overview?client-language=en#protocol=https:&port=53888 in 6349 ms.
+000023.370|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +430ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000023.632|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +259ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000023.641|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-clubs/bundle.js:1)
+000023.715|   WARN| js: plugin:parties:PARTY-272:warn {"2":"PlatformDisabled","8":"PlatformDisabled","9":"PlatformDisabled","31":"PlatformDisabled","32":"PlatformDisabled","33":"PlatformDisabled","52":"PlatformDisabled","65":"PlatformDisabled","67":"PlatformDisabled","70":"PlatformDisabled","72":"PlatformDisabled","73":"PlatformDisabled","75":"PlatformDisabled","76":"PlatformDisabled","78":"PlatformDisabled","91":"PlatformDisabled","92":"PlatformDisabled","93":"PlatformDisabled","96":"PlatformDisabled","98":"PlatformDisabled","100":"PlatformDisabled","300":"PlatformDisabled","310":"PlatformDisabled","313":"PlatformDisabled","315":"PlatformDisabled","318":"PlatformDisabled","325":"PlatformDisabled","400":"Available","420":"Available","430":"Available","440":"Available","450":"Available","460":"Available","470":"Available","600":"PlatformDisabled","610":"PlatformDisabled","700":"Available","800":"Available","810":"PlatformDisabled","820":"Available","830":"Available","840":"Available","850":"Available","900":"PlatformDisabled","910":"PlatformDisabled","920":"PlatformDisabled","930":"PlatformDisabled","940":"PlatformDisabled","950":"PlatformDisabled","960":"PlatformDisabled","980":"PlatformDisabled","990":"PlatformDisabled","1000":"PlatformDisabled","1010":"PlatformDisabled","1020":"Available"} +85ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000023.805| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000023.805| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000023.805| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000023.805| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000023.805| ALWAYS| js: From previous event:
+000023.805| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000023.805| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000023.805| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27566)
+000023.805| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000023.805| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000023.805| ALWAYS| js: --- End Multiline ---
+000023.807| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000023.807| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000023.807| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000023.807| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000023.807| ALWAYS| js: From previous event:
+000023.807| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000023.807| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000023.807| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27566)
+000023.807| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000023.807| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000023.807| ALWAYS| js: --- End Multiline ---
+000023.808| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000023.808| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000023.808| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000023.808| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000023.808| ALWAYS| js: From previous event:
+000023.808| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000023.808| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000023.808| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27566)
+000023.808| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000023.808| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000023.808| ALWAYS| js: --- End Multiline ---
+000024.086|   OKAY| Loaded url about:blank in 95 ms.
+000026.710| ALWAYS| js: rcp-fe-lol-lock-and-load:info lockName rcp-fe-lol-social:initialDataLoading unlocked after 10701ms. +7s (https://127.0.0.1:53888/fe/lol-lock-and-load/init.js:1)
+000026.838|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +4s (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000026.839|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +1ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000029.990|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-general-settings/bundle.js:1)
+000030.024|   OKAY| Pagefile Usage: 70MiB (+9) Peak: 71MiB (+10)
+000032.632|   WARN| js: plugin:champion-select:playerdata:warn champion inventory changed, length is 141 +12s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000033.929|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +17s (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000033.979|   WARN| js: You are using a deprecated moment API, please use tra.moment (https://127.0.0.1:53888/fe/lol-l10n/bundle.js:1)
+000034.008|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.009|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +10ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.010|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.041|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +32ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.058|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +16ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.062|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +5ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.062|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.066|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +3ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.069|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +4ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.070|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.071|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +1ms (https://127.0.0.1:53888/fe/lol-leagues/bundle.js:1)
+000034.401|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/language-filter/bundle.js:1)
+000034.496|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +574ms (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000035.007|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-esports-spectate/bundle.js:1)
+000035.025|   OKAY| Working Set Size: 98MiB (+13) Peak: 102MiB (+14)   Private Usage: 75MiB (+14)
+000035.278|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-kickout/init.js:1)
+000035.279|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +4ms (https://127.0.0.1:53888/fe/lol-kickout/init.js:1)
+000035.443| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:29) ---
+000035.443|  ERROR| js: rcp-fe-lol-email-verification:error Error: Session was there from the beginning, user did not log in
+000035.443| ALWAYS| js:     at f (https://127.0.0.1:53888/fe/lol-email-verification/rcp-fe-lol-email-verification.js:3:27963)
+000035.443| ALWAYS| js: From previous event:
+000035.443| ALWAYS| js:     at i.default (https://127.0.0.1:53888/fe/lol-email-verification/rcp-fe-lol-email-verification.js:3:28866)
+000035.443| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-email-verification/rcp-fe-lol-email-verification.js:1:1729 +0ms
+000035.443| ALWAYS| js: --- End Multiline ---
+000036.821| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141) ---
+000036.821| ALWAYS| js: Error: jsonRequest of /lol-clash/v1/awaiting-resent-eog failed with HTTP Error 404
+000036.821| ALWAYS| js:     at XMLHttpRequest.l.onreadystatechange (https://127.0.0.1:53888/fe/ember-libs/bundle.js:5:5240)
+000036.821| ALWAYS| js: --- End Multiline ---
+000037.032|   WARN| js: rcp-fe-viewport:warn Getting a screen root solely by name is deprecated, please use an API key too. You can obtain one by invoking `getApiKey` on the viewport plugin. More info: https://gh.riotgames.com/riotclient/rcp-fe-viewport/issues/92 +3s (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000037.036|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +0ms (https://127.0.0.1:53888/fe/lol-karma/rcp-fe-lol-karma.js:1)
+000037.882|   WARN| js: rcp-fe-lol-account-verification-settings:api:warn Setup onLogin +2s (https://127.0.0.1:53888/fe/common-libs/bundle.js:29)
+000037.882|   WARN| js: rcp-fe-lol-account-verification-settings:api:warn Got a valid login session. +1ms (https://127.0.0.1:53888/fe/common-libs/bundle.js:29)
+000037.882|   WARN| js: rcp-fe-lol-account-verification-settings:api:warn Getting user details +1ms (https://127.0.0.1:53888/fe/common-libs/bundle.js:29)
+000037.886|   WARN| js: rcp-fe-lol-account-verification-settings:api:warn User details: +1ms (https://127.0.0.1:53888/fe/common-libs/bundle.js:29)
+000037.940| ALWAYS| js: Uncaught (in promise) account-verification-settings not enabled via platformConfig (undefined:0)
+000041.904| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000041.904| ALWAYS| js: Unhandled rejection Error: Start playback before trying to fade it out.
+000041.904| ALWAYS| js:     at Object.assign.fadeOut (https://127.0.0.1:53888/fe/audio/init.js:2:7712)
+000041.904| ALWAYS| js:     at t.s.value (https://127.0.0.1:53888/fe/lol-splash/bundle.js:1:24410)
+000041.904| ALWAYS| js:     at e.r.value (https://127.0.0.1:53888/fe/lol-splash/bundle.js:1:18306)
+000041.904| ALWAYS| js:     at e.o.value (https://127.0.0.1:53888/fe/lol-splash/bundle.js:1:16583)
+000041.904| ALWAYS| js:     at e.a.value (https://127.0.0.1:53888/fe/lol-login/bundle.js:1:19057)
+000041.904| ALWAYS| js:     at i.e.exports.o.Ember.Component.extend.processSuccessfulLogin (https://127.0.0.1:53888/fe/lol-login/bundle.js:3:15346)
+000041.904| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-login/bundle.js:3:14883)
+000041.904| ALWAYS| js:     at c.f.get (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:4516)
+000041.904| ALWAYS| js:     at Object.n [as get] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:11799)
+000041.904| ALWAYS| js:     at t.compute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:140:20045)
+000041.904| ALWAYS| js:     at t.value (https://127.0.0.1:53888/fe/ember-libs/bundle.js:140:19275)
+000041.904| ALWAYS| js:     at t.compute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:140:12631)
+000041.904| ALWAYS| js:     at t.e.value (https://127.0.0.1:53888/fe/ember-libs/bundle.js:147:17731)
+000041.904| ALWAYS| js:     at a (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:1406)
+000041.904| ALWAYS| js:     at t.compute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:4015)
+000041.904| ALWAYS| js:     at t.e.value (https://127.0.0.1:53888/fe/ember-libs/bundle.js:147:17731)
+000041.904| ALWAYS| js:     at e.revalidate (https://127.0.0.1:53888/fe/ember-libs/bundle.js:147:18487)
+000041.904| ALWAYS| js:     at e.patch (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:9459)
+000041.904| ALWAYS| js:     at t.evaluate (https://127.0.0.1:53888/fe/ember-libs/bundle.js:149:11213)
+000041.904| ALWAYS| js:     at e.execute (https://127.0.0.1:53888/fe/ember-libs/bundle.js:151:26316)
+000041.904| ALWAYS| js:     at e.rerender (https://127.0.0.1:53888/fe/ember-libs/bundle.js:151:25218)
+000041.904| ALWAYS| js:     at e.s.render (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:17397)
+000041.904| ALWAYS| js:     at d (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:16776)
+000041.904| ALWAYS| js:     at t.e._renderRoots (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:20054)
+000041.904| ALWAYS| js:     at t.e._renderRootsTransaction (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:20361)
+000041.904| ALWAYS| js:     at t.e._revalidate (https://127.0.0.1:53888/fe/ember-libs/bundle.js:139:20895)
+000041.904| ALWAYS| js:     at s.invoke (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:4540)
+000041.904| ALWAYS| js:     at Object.s.flush (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:5063)
+000041.904| ALWAYS| js:     at Object.u.flush (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:5825)
+000041.904| ALWAYS| js:     at Object.p.end (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:6170)
+000041.905| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:3412
+000041.905| ALWAYS| js: --- End Multiline ---
+000042.155| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000042.156| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000042.156| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000042.156| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000043.085| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000068.714| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000068.714| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000068.714| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000068.714| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000068.714| ALWAYS| js: From previous event:
+000068.714| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000068.714| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000068.714| ALWAYS| js:     at i.t.exports.o.Ember.Component.extend.mouseEnter (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27075)
+000068.714| ALWAYS| js:     at i.t.FrameworkObject.extend.trigger (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:7936)
+000068.714| ALWAYS| js:     at i.r [as trigger] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:145:23797)
+000068.714| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000068.714| ALWAYS| js:     at Object.p.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7366)
+000068.714| ALWAYS| js:     at Function.l.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:14194)
+000068.714| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9847
+000068.714| ALWAYS| js:     at Object.e.flaggedInstrument.d [as flaggedInstrument] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:18811)
+000068.714| ALWAYS| js:     at Object.t.assign.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9771)
+000068.714| ALWAYS| js:     at i.e.default.r.Mixin.create.u.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:684)
+000068.714| ALWAYS| js:     at i.e.default.n.Object.extend._bubbleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:3124)
+000068.714| ALWAYS| js:     at HTMLDivElement.<anonymous> (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:2529)
+000068.714| ALWAYS| js:     at HTMLDivElement.rt.event.special.(anonymous function).handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:29534)
+000068.714| ALWAYS| js:     at HTMLDivElement.rt.event.dispatch (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:25835)
+000068.714| ALWAYS| js:     at HTMLDivElement.g.handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:22574)
+000068.714| ALWAYS| js: --- End Multiline ---
+000068.717| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000068.717| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000068.717| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000068.717| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000068.717| ALWAYS| js: From previous event:
+000068.718| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000068.718| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000068.718| ALWAYS| js:     at i.t.exports.o.Ember.Component.extend.mouseEnter (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27075)
+000068.718| ALWAYS| js:     at i.t.FrameworkObject.extend.trigger (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:7936)
+000068.718| ALWAYS| js:     at i.r [as trigger] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:145:23797)
+000068.718| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000068.718| ALWAYS| js:     at Object.p.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7366)
+000068.718| ALWAYS| js:     at Function.l.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:14194)
+000068.718| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9847
+000068.718| ALWAYS| js:     at Object.e.flaggedInstrument.d [as flaggedInstrument] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:18811)
+000068.718| ALWAYS| js:     at Object.t.assign.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9771)
+000068.718| ALWAYS| js:     at i.e.default.r.Mixin.create.u.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:684)
+000068.718| ALWAYS| js:     at i.e.default.n.Object.extend._bubbleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:3124)
+000068.718| ALWAYS| js:     at HTMLDivElement.<anonymous> (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:2529)
+000068.718| ALWAYS| js:     at HTMLDivElement.rt.event.special.(anonymous function).handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:29534)
+000068.718| ALWAYS| js:     at HTMLDivElement.rt.event.dispatch (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:25835)
+000068.718| ALWAYS| js:     at HTMLDivElement.g.handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:22574)
+000068.718| ALWAYS| js: --- End Multiline ---
+000068.719| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000068.719| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000068.719| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000068.719| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000068.719| ALWAYS| js: From previous event:
+000068.719| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000068.719| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000068.719| ALWAYS| js:     at i.t.exports.o.Ember.Component.extend.mouseEnter (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27075)
+000068.719| ALWAYS| js:     at i.t.FrameworkObject.extend.trigger (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:7936)
+000068.719| ALWAYS| js:     at i.r [as trigger] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:145:23797)
+000068.719| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000068.719| ALWAYS| js:     at Object.p.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7366)
+000068.719| ALWAYS| js:     at Function.l.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:14194)
+000068.719| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9847
+000068.719| ALWAYS| js:     at Object.e.flaggedInstrument.d [as flaggedInstrument] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:18811)
+000068.719| ALWAYS| js:     at Object.t.assign.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9771)
+000068.719| ALWAYS| js:     at i.e.default.r.Mixin.create.u.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:684)
+000068.719| ALWAYS| js:     at i.e.default.n.Object.extend._bubbleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:3124)
+000068.720| ALWAYS| js:     at HTMLDivElement.<anonymous> (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:2529)
+000068.720| ALWAYS| js:     at HTMLDivElement.rt.event.special.(anonymous function).handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:29534)
+000068.720| ALWAYS| js:     at HTMLDivElement.rt.event.dispatch (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:25835)
+000068.720| ALWAYS| js:     at HTMLDivElement.g.handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:22574)
+000068.720| ALWAYS| js: --- End Multiline ---
+000068.979|   WARN| js: plugin:parties:party-api:warn PLAY BUTTON CLICKED +45s (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000068.979| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000068.979| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000068.979| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000068.979| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000068.979| ALWAYS| js: From previous event:
+000068.979| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000068.979| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000068.980| ALWAYS| js:     at i.t.exports.o.Ember.Component.extend.click (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:26837)
+000068.980| ALWAYS| js:     at i.t.FrameworkObject.extend.trigger (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:7936)
+000068.980| ALWAYS| js:     at i.r [as trigger] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:145:23797)
+000068.980| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000068.980| ALWAYS| js:     at Object.p.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7366)
+000068.980| ALWAYS| js:     at Function.l.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:14194)
+000068.980| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9847
+000068.980| ALWAYS| js:     at Object.e.flaggedInstrument.d [as flaggedInstrument] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:18811)
+000068.980| ALWAYS| js:     at Object.t.assign.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9771)
+000068.980| ALWAYS| js:     at i.e.default.r.Mixin.create.u.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:684)
+000068.980| ALWAYS| js:     at i.e.default.n.Object.extend._bubbleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:3124)
+000068.980| ALWAYS| js:     at HTMLDivElement.<anonymous> (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:2529)
+000068.980| ALWAYS| js:     at HTMLDivElement.rt.event.dispatch (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:25835)
+000068.980| ALWAYS| js:     at HTMLDivElement.g.handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:22574)
+000068.980| ALWAYS| js: --- End Multiline ---
+000068.980| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000068.980| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000068.980| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000068.980| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000068.980| ALWAYS| js: From previous event:
+000068.980| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000068.980| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000068.980| ALWAYS| js:     at i.t.exports.o.Ember.Component.extend.click (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:26837)
+000068.980| ALWAYS| js:     at i.t.FrameworkObject.extend.trigger (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:7936)
+000068.980| ALWAYS| js:     at i.r [as trigger] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:145:23797)
+000068.980| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000068.980| ALWAYS| js:     at Object.p.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7366)
+000068.980| ALWAYS| js:     at Function.l.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:14194)
+000068.980| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9847
+000068.980| ALWAYS| js:     at Object.e.flaggedInstrument.d [as flaggedInstrument] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:18811)
+000068.980| ALWAYS| js:     at Object.t.assign.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9771)
+000068.980| ALWAYS| js:     at i.e.default.r.Mixin.create.u.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:684)
+000068.980| ALWAYS| js:     at i.e.default.n.Object.extend._bubbleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:3124)
+000068.980| ALWAYS| js:     at HTMLDivElement.<anonymous> (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:2529)
+000068.981| ALWAYS| js:     at HTMLDivElement.rt.event.dispatch (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:25835)
+000068.981| ALWAYS| js:     at HTMLDivElement.g.handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:22574)
+000068.981| ALWAYS| js: --- End Multiline ---
+000068.982| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000068.982| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000068.982| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000068.982| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000068.982| ALWAYS| js: From previous event:
+000068.982| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000068.982| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000068.982| ALWAYS| js:     at i.t.exports.o.Ember.Component.extend.click (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:26837)
+000068.983| ALWAYS| js:     at i.t.FrameworkObject.extend.trigger (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:7936)
+000068.983| ALWAYS| js:     at i.r [as trigger] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:145:23797)
+000068.983| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000068.983| ALWAYS| js:     at Object.p.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7366)
+000068.983| ALWAYS| js:     at Function.l.join (https://127.0.0.1:53888/fe/ember-libs/bundle.js:142:14194)
+000068.983| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9847
+000068.983| ALWAYS| js:     at Object.e.flaggedInstrument.d [as flaggedInstrument] (https://127.0.0.1:53888/fe/ember-libs/bundle.js:141:18811)
+000068.983| ALWAYS| js:     at Object.t.assign.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:9771)
+000068.983| ALWAYS| js:     at i.e.default.r.Mixin.create.u.handleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:684)
+000068.983| ALWAYS| js:     at i.e.default.n.Object.extend._bubbleEvent (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:3124)
+000068.983| ALWAYS| js:     at HTMLDivElement.<anonymous> (https://127.0.0.1:53888/fe/ember-libs/bundle.js:146:2529)
+000068.983| ALWAYS| js:     at HTMLDivElement.rt.event.dispatch (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:25835)
+000068.983| ALWAYS| js:     at HTMLDivElement.g.handle (https://127.0.0.1:53888/fe/common-libs/bundle.js:18:22574)
+000068.983| ALWAYS| js: --- End Multiline ---
+000069.319|   WARN| js: plugin:parties:party-api:warn SHOWING GAME SELECT +348ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000069.322|   WARN| js: plugin:parties:party-api:warn BUMPING PARTIES SCREEN ROOT +3ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000069.323| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000069.662|   WARN| js: SVG's SMIL animations (<animate>, <set>, etc.) are deprecated and will be removed. Please use CSS animations or Web animations instead.
+000069.757|   OKAY| Loaded url about:blank in 186 ms.
+000070.032|   OKAY| Pagefile Usage: 80MiB (+10) Peak: 80MiB (+9)
+000070.159| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000070.160|   WARN| js: plugin:parties:party-api:warn LOCKING PLAY BUTTON +838ms (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000070.163| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000070.238|   WARN| js: rcp-fe-lol-uikit:warn <lol-uikit-video> attributes fade-in and fade-out must be millisecond integer values without "ms" or "s".Support for time values is deprecated. +1m (https://127.0.0.1:53888/fe/lol-uikit/init.js:1)
+000070.239|   WARN| js: rcp-fe-lol-uikit:warn <lol-uikit-video> attributes fade-in and fade-out must be millisecond integer values without "ms" or "s".Support for time values is deprecated. +0ms (https://127.0.0.1:53888/fe/lol-uikit/init.js:1)
+000087.276|   WARN| js: plugin:parties:lobbies-service:warn Creating new lobby with queueId: 420 +17s (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000087.857|   WARN| js: plugin:champion-select:playerdata:warn availableSpells changed, length is 0 +55s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000087.858|   WARN| js: plugin:champion-select:warn champSelectScreen changing to undefined +0ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000088.133|   WARN| js: plugin:champion-select:playerdata:warn availableSpells changed, length is 9 +274ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000088.391|   WARN| js: plugin:parties:party-api:warn PARTY CREATED (420) +1s (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000090.033|   OKAY| Working Set Size: 115MiB (+17) Peak: 121MiB (+19)   Pagefile Usage: 90MiB (+10) Peak: 92MiB (+12)   Private Usage: 90MiB (+15)
+000135.758|   OKAY| CacheStats: Removed expired entries with these stats:
+000135.758|   OKAY| CacheStats: 20 total files in cache
+000135.758|   OKAY| CacheStats: 11236287 total bytes in cache
+000135.758|   OKAY| CacheStats: 22 total use count
+000135.758|   OKAY| CacheStats: 2 unique files whose requests were served from cache
+000135.758|   OKAY| CacheStats: 2 total file requests were served from cache
+000135.758|   OKAY| CacheStats: 147857 total bytes served from cache
+000150.761|   OKAY| CacheStats: Removed expired entries with these stats:
+000150.761|   OKAY| CacheStats: 137 total files in cache
+000150.761|   OKAY| CacheStats: 16606774 total bytes in cache
+000150.761|   OKAY| CacheStats: 139 total use count
+000150.761|   OKAY| CacheStats: 2 unique files whose requests were served from cache
+000150.761|   OKAY| CacheStats: 2 total file requests were served from cache
+000150.761|   OKAY| CacheStats: 3973205 total bytes served from cache
+000155.038|   OKAY| Working Set Size: 101MiB (-14) Peak: 121MiB (+0)   Pagefile Usage: 76MiB (-14) Peak: 92MiB (+0)   Private Usage: 76MiB (-14)
+000165.778|   OKAY| CacheStats: Removed expired entries with these stats:
+000165.778|   OKAY| CacheStats: 117 total files in cache
+000165.778|   OKAY| CacheStats: 2280743 total bytes in cache
+000165.778|   OKAY| CacheStats: 117 total use count
+000165.778|   OKAY| CacheStats: 0 unique files whose requests were served from cache
+000165.778|   OKAY| CacheStats: 0 total file requests were served from cache
+000165.778|   OKAY| CacheStats: 0 total bytes served from cache
+000195.804|   OKAY| CacheStats: Removed expired entries with these stats:
+000195.804|   OKAY| CacheStats: 21 total files in cache
+000195.804|   OKAY| CacheStats: 1489312 total bytes in cache
+000195.804|   OKAY| CacheStats: 22 total use count
+000195.804|   OKAY| CacheStats: 1 unique files whose requests were served from cache
+000195.804|   OKAY| CacheStats: 1 total file requests were served from cache
+000195.804|   OKAY| CacheStats: 19730 total bytes served from cache
+000210.836|   OKAY| CacheStats: Removed expired entries with these stats:
+000210.836|   OKAY| CacheStats: 31 total files in cache
+000210.836|   OKAY| CacheStats: 11262542 total bytes in cache
+000210.836|   OKAY| CacheStats: 34 total use count
+000210.836|   OKAY| CacheStats: 3 unique files whose requests were served from cache
+000210.836|   OKAY| CacheStats: 3 total file requests were served from cache
+000210.837|   OKAY| CacheStats: 485341 total bytes served from cache
+000215.041|   OKAY| Working Set Size: 86MiB (-15) Peak: 121MiB (+0)   Pagefile Usage: 61MiB (-15) Peak: 92MiB (+0)   Private Usage: 61MiB (-15)
+000528.945|   WARN| js: plugin:parties:player-positions-component:warn UPDATING POSITION PREFERENCES TO: {"firstPreference":"TOP","secondPreference":"UNSELECTED"} +7m (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000529.069| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000529.069| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000529.069| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000529.070| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000529.070| ALWAYS| js: From previous event:
+000529.070| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000529.070| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000529.070| ALWAYS| js:     at lol-parties-player-position.s.value (https://127.0.0.1:53888/fe/lol-parties/init.js:4:2280)
+000529.070| ALWAYS| js:     at i.e.exports.a.Ember.Component.extend.playPositionVideo (https://127.0.0.1:53888/fe/lol-parties/init.js:18:18968)
+000529.070| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-parties/init.js:18:14180
+000529.070| ALWAYS| js:     at e (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:8342)
+000529.070| ALWAYS| js:     at s.invoke (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:4540)
+000529.070| ALWAYS| js:     at Object.s.flush (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:5063)
+000529.070| ALWAYS| js:     at Object.u.flush (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:5825)
+000529.070| ALWAYS| js:     at Object.p.end (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:6170)
+000529.070| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7300)
+000529.070| ALWAYS| js:     at Object.p._runExpiredTimers (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:10987)
+000529.070| ALWAYS| js:     at _boundRunExpiredTimers (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:3214)
+000529.070| ALWAYS| js: --- End Multiline ---
+000529.984|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +8m (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000529.986|   WARN| js: plugin:premade-voice:voice-button:warn Voice availability: {"connectedToVoiceServer":true,"disabledAfterLogin":false,"enabled":true,"showDisconnectedState":false,"showUI":true,"voiceChannelAvailable":false} +2ms (https://127.0.0.1:53888/fe/lol-premade-voice/init.js:1)
+000540.478|   WARN| js: plugin:parties:player-positions-component:warn UPDATING POSITION PREFERENCES TO: {"firstPreference":"TOP","secondPreference":"UTILITY"} +12s (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000628.975| ALWAYS| Window 1 is now visible.
+000628.978|   OKAY| Window 1 is activated.
+000630.061|   OKAY| Working Set Size: 97MiB (+11) Peak: 121MiB (+0)   Pagefile Usage: 73MiB (+12) Peak: 92MiB (+0)   Private Usage: 73MiB (+12)
+000642.202| ALWAYS| Window 1 is now visible.
+000642.204|   OKAY| Window 1 is activated.
+000649.492|   WARN| js: plugin:champion-select:warn champSelectScreen changing to pick-screen +9m (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000649.866|   WARN| js: plugin:champion-select:warn champSelectScreen changing to position-assignment-screen +375ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000650.304|   WARN| js: plugin:champion-select:playerdata:warn pickable champions changed, length is 140 +429ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000650.758|   WARN| js: plugin:parties:party-api:warn RELEASING PARTIES SCREEN ROOT +2m (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000651.110| ALWAYS| js: Uncaught (in promise) Error: jsonRequest of /lol-chat/v1/conversations/active failed with HTTP Error 404 (https://127.0.0.1:53888/fe/common-libs/bundle.js:9)
+000651.304| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000652.234| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000652.318|   OKAY| Loaded url about:blank in 263 ms.
+000652.710|   WARN| js: plugin:parties:party-api:warn UNLOCKING PLAY BUTTON +2s (https://127.0.0.1:53888/fe/lol-parties/init.js:1)
+000652.714| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000652.714| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000652.714| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000652.714| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000652.714| ALWAYS| js: From previous event:
+000652.714| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000652.714| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000652.714| ALWAYS| js:     at i.e.exports.i.Ember.Component.extend.sendVideoEvent (https://127.0.0.1:53888/fe/lol-parties/init.js:22:587)
+000652.714| ALWAYS| js:     at a (https://127.0.0.1:53888/fe/lol-parties/init.js:22:3352)
+000652.714| ALWAYS| js:     at https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2:4190
+000652.714| ALWAYS| js:     at Map.forEach (native)
+000652.714| ALWAYS| js:     at .<anonymous> (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2:7056)
+000652.714| ALWAYS| js:     at t.i.trigger (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2:4168)
+000652.714| ALWAYS| js:     at https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:1:17338
+000652.714| ALWAYS| js: --- End Multiline ---
+000652.714| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000652.961| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000652.961| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000652.961| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000652.961| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000652.961| ALWAYS| js: From previous event:
+000652.961| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000652.961| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000652.961| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27566)
+000652.961| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000652.961| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000652.961| ALWAYS| js: --- End Multiline ---
+000652.961| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000652.961| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000652.961| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000652.961| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000652.961| ALWAYS| js: From previous event:
+000652.962| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000652.962| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000652.962| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27566)
+000652.962| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000652.962| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000652.962| ALWAYS| js: --- End Multiline ---
+000652.962| ALWAYS| js: --- Begin Multiline (https://127.0.0.1:53888/fe/common-libs/bundle.js:8) ---
+000652.962| ALWAYS| js: Warning: a promise was created in a handler but was not returned from it
+000652.962| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:16097)
+000652.962| ALWAYS| js:     at https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15808
+000652.962| ALWAYS| js: From previous event:
+000652.962| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15776)
+000652.962| ALWAYS| js:     at lol-uikit-video-state-machine.s.value (https://127.0.0.1:53888/fe/lol-uikit/init.js:14:15306)
+000652.962| ALWAYS| js:     at i.<anonymous> (https://127.0.0.1:53888/fe/lol-patcher/rcp-fe-lol-patcher.js:4:27566)
+000652.962| ALWAYS| js:     at Object.p.run (https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:7267)
+000652.962| ALWAYS| js:     at https://127.0.0.1:53888/fe/ember-libs/bundle.js:137:9343
+000652.962| ALWAYS| js: --- End Multiline ---
+000653.132| ALWAYS| js: rcp-fe-viewport: (https://127.0.0.1:53888/fe/viewport/rcp-fe-viewport.js:2)
+000654.855|   OKAY| OnBeforeBrowse called for https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-jungle.svg
+000654.883|   OKAY| Loaded url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-jungle.svg in 16 ms.
+000655.434|   OKAY| OnBeforeBrowse called for https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-utility.svg
+000655.522|   OKAY| Loaded url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-utility.svg in 42 ms.
+000656.434|   OKAY| OnBeforeBrowse called for https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-middle.svg
+000656.442|   OKAY| Loaded url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-middle.svg in 4 ms.
+000656.930|   OKAY| OnBeforeBrowse called for https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-top.svg
+000657.007|   OKAY| Loaded url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-top.svg in 45 ms.
+000657.338|   WARN| js: plugin:champion-select:warn champSelectScreen changing to pick-screen +7s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000658.070|   OKAY| OnBeforeBrowse called for https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-bottom.svg
+000658.085|   OKAY| Loaded url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/fe/lol-champ-select/svg/position-bottom.svg in 0 ms.
+000660.064|   OKAY| Pagefile Usage: 83MiB (+10) Peak: 92MiB (+0)   Private Usage: 83MiB (+10)
+000661.213|   OKAY| CacheStats: Removed expired entries with these stats:
+000661.213|   OKAY| CacheStats: 12 total files in cache
+000661.213|   OKAY| CacheStats: 574516 total bytes in cache
+000661.213|   OKAY| CacheStats: 14 total use count
+000661.213|   OKAY| CacheStats: 2 unique files whose requests were served from cache
+000661.213|   OKAY| CacheStats: 2 total file requests were served from cache
+000661.213|   OKAY| CacheStats: 65180 total bytes served from cache
+000665.064|   OKAY| Working Set Size: 129MiB (+32) Peak: 131MiB (+10)   Pagefile Usage: 103MiB (+20) Peak: 107MiB (+15)   Private Usage: 103MiB (+20)
+000672.054|   WARN| js: plugin:champion-select:request:warn {"url":"/lol-champ-select/v1/session/actions/16","contentType":"application/json","data":"{\"championId\":75}","errorMessage":"error_could_not_select_champion","method":"PATCH"} +15s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000672.604|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/actions/16 received response 204 +551ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000673.170| ALWAYS| Window 1 is now visible.
+000673.173|   OKAY| Window 1 is activated.
+000673.234|   WARN| js: plugin:champion-select:warn champSelectScreen changing to pick-screen +627ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000673.235| ALWAYS| js: The sound url "/fe/lol-champ-select/sounds/music-cs-draft-pickintent-to-ban-trans-01.ogg" is not valid for this channel. Reason: file name expected to begin with "sfx-" (https://127.0.0.1:53888/fe/audio/init.js:1)
+000673.296|   WARN| js: plugin:champion-select:warn champSelectScreen changing to ban-showcase-screen +70ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000676.229|   OKAY| CacheStats: Removed expired entries with these stats:
+000676.229|   OKAY| CacheStats: 5 total files in cache
+000676.229|   OKAY| CacheStats: 2953236 total bytes in cache
+000676.229|   OKAY| CacheStats: 16 total use count
+000676.229|   OKAY| CacheStats: 2 unique files whose requests were served from cache
+000676.229|   OKAY| CacheStats: 11 total file requests were served from cache
+000676.229|   OKAY| CacheStats: 8558160 total bytes served from cache
+000677.841|   WARN| js: plugin:champion-select:request:warn {"url":"/lol-champ-select/v1/session/my-selection","contentType":"application/json","data":"{\"spell1Id\":6}","method":"PATCH","errorMessage":"error_could_not_set_spells"} +5s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000677.905|   WARN| js: provider-proxy:warn The function `provider` has been deprecated, please use `getProvider` +62ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000678.607|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/my-selection received response 204 +702ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000688.266|   WARN| js: plugin:champion-select:request:warn {"url":"/lol-champ-select/v1/session/actions/8","contentType":"application/json","data":"{\"championId\":19}","errorMessage":"error_could_not_select_champion","method":"PATCH"} +10s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000688.780|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/actions/8 received response 204 +509ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000689.226|   WARN| js: plugin:champion-select:request:warn {"type":"PATCH","url":"/lol-champ-select/v1/session/actions/8","contentType":"application/json","data":"{\"completed\":true,\"championId\":19}","errorMessage":"error_could_not_lock_in"} +442ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000690.118|   WARN| js: plugin:champion-select:response:warn url: /lol-champ-select/v1/session/actions/8 received response 204 +901ms (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000690.681| ALWAYS| js: The sound url "/lol-game-data/assets/v1/champion-ban-vo/19.ogg" is not valid for this channel. Reason: file name expected to begin with "vo-" (https://127.0.0.1:53888/fe/audio/init.js:1)
+000698.447|  ERROR| js: Uncaught TypeError: Cannot read property 'parent' of undefined (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:3)
+000705.996|   WARN| js: plugin:champion-select:warn champSelectScreen changing to pick-screen +16s (https://127.0.0.1:53888/fe/lol-champ-select/champ-select.js:2)
+000706.007| ALWAYS| js: The sound url "/fe/lol-champ-select/sounds/music-cs-draft-ban-to-pick-trans-01.ogg" is not valid for this channel. Reason: file name expected to begin with "sfx-" (https://127.0.0.1:53888/fe/audio/init.js:1)
+000751.336|   OKAY| CacheStats: Removed expired entries with these stats:
+000751.337|   OKAY| CacheStats: 7 total files in cache
+000751.337|   OKAY| CacheStats: 2986791 total bytes in cache
+000751.337|   OKAY| CacheStats: 7 total use count
+000751.337|   OKAY| CacheStats: 0 unique files whose requests were served from cache
+000751.337|   OKAY| CacheStats: 0 total file requests were served from cache
+000751.337|   OKAY| CacheStats: 0 total bytes served from cache
+000766.353|   OKAY| CacheStats: Removed expired entries with these stats:
+000766.353|   OKAY| CacheStats: 2 total files in cache
+000766.353|   OKAY| CacheStats: 2718535 total bytes in cache
+000766.353|   OKAY| CacheStats: 3 total use count
+000766.353|   OKAY| CacheStats: 1 unique files whose requests were served from cache
+000766.353|   OKAY| CacheStats: 1 total file requests were served from cache
+000766.353|   OKAY| CacheStats: 2683123 total bytes served from cache
+000781.385|   OKAY| CacheStats: Removed expired entries with these stats:
+000781.385|   OKAY| CacheStats: 41 total files in cache
+000781.385|   OKAY| CacheStats: 11244283 total bytes in cache
+000781.385|   OKAY| CacheStats: 75 total use count
+000781.385|   OKAY| CacheStats: 11 unique files whose requests were served from cache
+000781.385|   OKAY| CacheStats: 34 total file requests were served from cache
+000781.385|   OKAY| CacheStats: 10318444 total bytes served from cache
+000785.240|   OKAY| Working Set Size: 115MiB (-14) Peak: 139MiB (+8)   Pagefile Usage: 90MiB (-13) Peak: 112MiB (+5)   Private Usage: 90MiB (-13)
+000796.402|   OKAY| CacheStats: Removed expired entries with these stats:
+000796.402|   OKAY| CacheStats: 7 total files in cache
+000796.402|   OKAY| CacheStats: 7287738 total bytes in cache
+000796.402|   OKAY| CacheStats: 9 total use count
+000796.402|   OKAY| CacheStats: 2 unique files whose requests were served from cache
+000796.402|   OKAY| CacheStats: 2 total file requests were served from cache
+000796.402|   OKAY| CacheStats: 6944256 total bytes served from cache
+000800.242|   OKAY| Working Set Size: 135MiB (+20) Peak: 157MiB (+18)
+000800.242|   OKAY| Page Fault Count: 109K (+107)
+000811.403|   OKAY| CacheStats: Removed expired entries with these stats:
+000811.403|   OKAY| CacheStats: 6 total files in cache
+000811.403|   OKAY| CacheStats: 314689 total bytes in cache
+000811.403|   OKAY| CacheStats: 6 total use count
+000811.403|   OKAY| CacheStats: 0 unique files whose requests were served from cache
+000811.403|   OKAY| CacheStats: 0 total file requests were served from cache
+000811.403|   OKAY| CacheStats: 0 total bytes served from cache
+000820.243|   OKAY| Working Set Size: 111MiB (-24) Peak: 157MiB (+0)
+000826.430|   OKAY| CacheStats: Removed expired entries with these stats:
+000826.430|   OKAY| CacheStats: 16 total files in cache
+000826.430|   OKAY| CacheStats: 6723009 total bytes in cache
+000826.430|   OKAY| CacheStats: 52 total use count
+000826.430|   OKAY| CacheStats: 2 unique files whose requests were served from cache
+000826.430|   OKAY| CacheStats: 36 total file requests were served from cache
+000826.430|   OKAY| CacheStats: 99289320 total bytes served from cache
+000841.462|   OKAY| CacheStats: Removed expired entries with these stats:
+000841.462|   OKAY| CacheStats: 14 total files in cache
+000841.462|   OKAY| CacheStats: 4974682 total bytes in cache
+000841.462|   OKAY| CacheStats: 47 total use count
+000841.462|   OKAY| CacheStats: 10 unique files whose requests were served from cache
+000841.462|   OKAY| CacheStats: 33 total file requests were served from cache
+000841.462|   OKAY| CacheStats: 26068242 total bytes served from cache
+000845.248|   OKAY| Working Set Size: 101MiB (-10) Peak: 157MiB (+0)   Pagefile Usage: 76MiB (-14) Peak: 112MiB (+0)   Private Usage: 76MiB (-14)
+000845.930|   OKAY| Terminating via POST /process-control/v1/process/quit.
+000845.986| ALWAYS| Window 1 is now hidden.
+000845.997|   OKAY| Close browsers
+000846.007|   OKAY| Main windows received quit command.
+000846.153|   OKAY| Terminating window manager.
+000846.180|   OKAY| Shutting down RiotRemoting.
+000846.180|   OKAY| CacheStats: Purging Cache - Current cache stats:
+000846.180|   OKAY| CacheStats: 659 total files in cache
+000846.180|   OKAY| CacheStats: 34953250 total bytes in cache
+000846.180|   OKAY| CacheStats: 717 total use count
+000846.180|   OKAY| CacheStats: 24 unique files whose requests were served from cache
+000846.180|   OKAY| CacheStats: 58 total file requests were served from cache
+000846.180|   OKAY| CacheStats: 98659238 total bytes served from cache
+000846.180|   OKAY| CacheStats: Purging Cache - Overall cache stats:
+000846.180|   OKAY| CacheStats: 1095 total files in cache
+000846.180|   OKAY| CacheStats: 117606387 total bytes in cache
+000846.180|   OKAY| CacheStats: 1280 total use count
+000846.180|   OKAY| CacheStats: 62 unique files whose requests were served from cache
+000846.180|   OKAY| CacheStats: 185 total file requests were served from cache
+000846.180|   OKAY| CacheStats: 257212096 total bytes served from cache
+000846.195|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000846.195|   OKAY| Reads - Count : 3705   Total Bytes: 2877765   Average Bytes: 776
+000846.195|   OKAY| Writes - Count : 22   Total Bytes: 1500   Average Bytes: 68
+000846.195|   OKAY| EINTRs: 0
+000846.195|   OKAY| Releasing browser process.
+000846.197|   OKAY| Shutting down CEF.
+000846.240|   OKAY| Exiting ux.
+000846.267|   OKAY| Working Set Size: 41MiB Peak: 157MiB   Pagefile Usage: 20MiB Peak: 112MiB   Private Usage: 20MiB
+000846.267|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 1MiB
+000846.267|   OKAY| Committed Total: 175MiB   Committed Image: 141MiB   Committed Mapped: 18MiB   Committed Private: 16MiB   Reserved Total: 88MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 65MiB   Free Total: 3832MiB   Limit: 4095MiB   Largest Free: 2025MiB   Region Count: 1290
+000846.267|   OKAY| Page Fault Count: 110K

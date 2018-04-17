@@ -1,0 +1,45 @@
+000000.000| ALWAYS| Logging started at 2018-04-16T23:06:55.868
+000000.000| ALWAYS| Application Version:8.7.223.9193 - CL:2239193 - Build Date: Mar 29 2018 - Build Time:18:32:24
+000000.000| ALWAYS| Log file C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T23-06-55_14276_LeagueClientUxHelper-gpu-process.log
+000000.000| ALWAYS| Running LeagueClientUxHelper version 8.7.223.9193
+000000.000|   OKAY| Initial working directory: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy"
+000000.000|   OKAY| Current process: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\LeagueClientUxRender.exe"
+000000.000|   OKAY| Command line arguments:
+	--type=gpu-process
+	--channel=10748.0.1872058290\1709562719
+	--no-sandbox
+	--lang=en-US
+	--log-file=C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log
+	--supports-dual-gpus=false
+	--gpu-driver-bug-workarounds=3,11,25,54,64
+	--gpu-vendor-id=0x10de
+	--gpu-device-id=0x13c2
+	--gpu-driver-vendor=NVIDIA
+	--gpu-driver-version=23.21.13.9101
+	--lang=en-US
+	--log-file=C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log
+	/prefetch:2
+	--app-name=LeagueClient
+	--ux-name=LeagueClientUx
+	--ux-helper-name=LeagueClientUxHelper
+	--log-dir=LeagueClient Logs
+	--bugsplat-name=league_client_riotgames_com
+	--app-port=55337
+	--bugsplat-platform-id=NA1
+	--app-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T23-06-55_12104_LeagueClient.log
+	--primary-ux-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T23-06-55_10748_LeagueClientUx.log
+000000.000|   OKAY| Memory Monitor enabled:
+000000.000|   OKAY| - update interval 5s
+000000.000|   OKAY| - memory delta threshold 10MiB
+000000.000|   OKAY| - page fault delta threshold 100K
+000000.000|   OKAY| - region count delta threshold 10
+000000.008|   OKAY| Working Set Size: 9MiB Peak: 9MiB   Pagefile Usage: 8MiB Peak: 8MiB   Private Usage: 8MiB
+000000.008|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+000000.008|   OKAY| Committed Total: 121MiB   Committed Image: 112MiB   Committed Mapped: 3MiB   Committed Private: 5MiB   Reserved Total: 32MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 10MiB   Free Total: 3941MiB   Limit: 4095MiB   Largest Free: 2029MiB   Region Count: 470
+000000.008|   OKAY| Page Fault Count: 2K
+000005.008|   OKAY| Working Set Size: 50MiB (+41) Peak: 50MiB (+41)   Pagefile Usage: 29MiB (+21) Peak: 29MiB (+21)   Private Usage: 29MiB (+21)
+000335.065|   OKAY| Working Set Size: 40MiB (-10) Peak: 54MiB (+4)
+000345.065|   OKAY| Working Set Size: 54MiB (+14) Peak: 69MiB (+15)   Pagefile Usage: 43MiB (+14) Peak: 44MiB (+15)   Private Usage: 43MiB (+14)
+000525.128|   OKAY| Page Fault Count: 102K (+100)
+000745.148|   OKAY| Working Set Size: 64MiB (+10) Peak: 69MiB (+0)
+000750.150|   OKAY| Working Set Size: 54MiB (-10) Peak: 69MiB (+0)

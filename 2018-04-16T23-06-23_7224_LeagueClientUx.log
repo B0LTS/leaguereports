@@ -1,0 +1,66 @@
+000000.000| ALWAYS| Logging started at 2018-04-16T23:06:23.118
+000000.000| ALWAYS| Application Version:8.7.223.9193 - CL:2239193 - Build Date: Mar 29 2018 - Build Time:18:32:25
+000000.000| ALWAYS| Log file C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T23-06-23_7224_LeagueClientUx.log
+000000.000| ALWAYS| Running LeagueClientUx version 8.7.223.9193
+000000.000|   OKAY| Initial working directory: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy"
+000000.000|   OKAY| Current process: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\LeagueClientUx.exe"
+000000.000|   OKAY| Command line arguments:
+	--release=0.0.0.109
+	--rads-product-directory=C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/deploy/
+	--remoting-auth-token=VC7MjBrtrOOiM55IdJpYQQ
+	--respawn-command=LeagueClient.exe
+	--respawn-display-name=League of Legends
+	--app-port=53888
+	--install-directory=C:/Riot Games/League of Legends/
+	--app-name=LeagueClient
+	--ux-name=LeagueClientUx
+	--ux-helper-name=LeagueClientUxHelper
+	--log-dir=LeagueClient Logs
+	--bugsplat-name=league_client_riotgames_com
+	--bugsplat-platform-id=NA1
+	--app-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_7660_LeagueClient.log
+	--app-pid=7660
+	--no-proxy-server
+000000.000|   OKAY| Memory Monitor enabled:
+000000.000|   OKAY| - update interval 5s
+000000.000|   OKAY| - memory delta threshold 10MiB
+000000.000|   OKAY| - page fault delta threshold 100K
+000000.000|   OKAY| - region count delta threshold 10
+000000.001|   OKAY| Riot::RADS::Reader::RadsMain::Initialize: RADS library initializing with specified working directory "C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/deploy/".
+000000.001|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.001|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/solutionmanifest")
+000000.002|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/configurationmanifest")
+000000.002|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/league_client_en_us/releases/0.0.0.109/releasemanifest")
+000000.003|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/league_client/releases/0.0.0.139/releasemanifest")
+000000.008|   OKAY| Working Set Size: 9MiB Peak: 9MiB   Pagefile Usage: 8MiB Peak: 8MiB   Private Usage: 8MiB
+000000.008|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+000000.008|   OKAY| Committed Total: 126MiB   Committed Image: 116MiB   Committed Mapped: 3MiB   Committed Private: 5MiB   Reserved Total: 32MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 10MiB   Free Total: 3937MiB   Limit: 4095MiB   Largest Free: 2020MiB   Region Count: 505
+000000.008|   OKAY| Page Fault Count: 2K
+000000.018| ALWAYS| Using Ux render executable path: LeagueClientUxRender.exe
+000000.020| ALWAYS| Cef CommandLine: "C:/Riot Games/League of Legends/RADS/projects/league_client/releases/0.0.0.139/deploy/LeagueClientUx.exe" --app-log-file-path="C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_7660_LeagueClient.log" --app-name=LeagueClient --app-pid=7660 --app-port=53888 --browser-subprocess-path=LeagueClientUxRender.exe --bugsplat-name=league_client_riotgames_com --bugsplat-platform-id=NA1 --install-directory="C:/Riot Games/League of Legends/" --lang=en-US --log-dir="LeagueClient Logs" --log-file="C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log" --no-proxy-server --no-sandbox --rads-product-directory="C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/deploy/" --release=0.0.0.109 --remoting-auth-token=VC7MjBrtrOOiM55IdJpYQQ --respawn-command=LeagueClient.exe --respawn-display-name="League of Legends" --ux-helper-name=LeagueClientUxHelper --ux-name=LeagueClientUx --disable-spell-checking --no-displaying-insecure-content
+000000.064| ALWAYS| Initial dpiScale = 1.000000
+000000.064| ALWAYS| Using cookie store at C:/Riot Games/League of Legends/Cookies
+000000.064|   OKAY| Creating browser process.
+000000.066| ALWAYS| App file system path is: C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\
+000000.066| ALWAYS| Plugins file system path used : Plugins\.
+000000.066| ALWAYS| Trying to connect to app process.
+000000.081| ALWAYS| Connected to app process.
+000000.197|   WARN|             Plugin Manager| Plugin desc for rcp-be-lol-premade-voice should specify "hasBundlesAssets"="false" if it doesn't have bundled assets or specify either "globalAssetBundles" or "perLocaleAssetBundles" if it has bundled assets.
+000005.008|   OKAY| Working Set Size: 26MiB (+17) Peak: 26MiB (+17)
+000016.410|  ERROR| ClientWebSocketTransport: SSL read failed because 5.
+000016.410|  ERROR| ClientWebSocketTransport: Closing socket due to previous error.
+000016.410|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000016.410|   OKAY| Reads - Count : 1911   Total Bytes: 1859456   Average Bytes: 973
+000016.410|   OKAY| Writes - Count : 12   Total Bytes: 903   Average Bytes: 75
+000016.410|   OKAY| EINTRs: 0
+000016.410|   OKAY| Setting mouse intercept hook.
+000016.410|   OKAY| Registering window.
+000016.410|   OKAY| Registering window class R.
+000016.410|   OKAY| Loading icons.
+000016.441|   OKAY| New window requested at 0,0 with dimensions 1280,720.
+000016.443|   OKAY| Creating ux window with url https://riot:VC7MjBrtrOOiM55IdJpYQQ@127.0.0.1:53888/bootstrap.html.
+000016.443| ALWAYS| Deleting non-whitelisted cookies
+000016.443|   OKAY| Running message loop.
+000016.446| ALWAYS| Keeping cookie (PREF) with domain (.youtube.com) which matches whitelisted domain (.youtube.com)
+000016.446| ALWAYS| Keeping cookie (VISITOR_INFO1_LIVE) with domain (.youtube.com) which matches whitelisted domain (.youtube.com)
+000016.447| ALWAYS| Deleting cookie (k) with domain (prod02.kaxsdc.com) which does not match whitelist

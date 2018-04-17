@@ -1,0 +1,134 @@
+000000.000| ALWAYS| Logging started at 2018-04-16T20:13:48.760
+000000.000| ALWAYS| Application Version:8.7.223.9193 - CL:2239193 - Build Date: Mar 29 2018 - Build Time:18:32:24
+000000.000| ALWAYS| Log file C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T20-13-48_13152_LeagueClientUxHelper-gpu-process.log
+000000.000| ALWAYS| Running LeagueClientUxHelper version 8.7.223.9193
+000000.000|   OKAY| Initial working directory: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy"
+000000.000|   OKAY| Current process: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\LeagueClientUxRender.exe"
+000000.000|   OKAY| Command line arguments:
+	--type=gpu-process
+	--channel=4468.0.1294808646\1938771992
+	--no-sandbox
+	--lang=en-US
+	--log-file=C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log
+	--supports-dual-gpus=false
+	--gpu-driver-bug-workarounds=3,11,25,54,64
+	--gpu-vendor-id=0x10de
+	--gpu-device-id=0x13c2
+	--gpu-driver-vendor=NVIDIA
+	--gpu-driver-version=23.21.13.9101
+	--lang=en-US
+	--log-file=C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log
+	/prefetch:2
+	--app-name=LeagueClient
+	--ux-name=LeagueClientUx
+	--ux-helper-name=LeagueClientUxHelper
+	--log-dir=LeagueClient Logs
+	--bugsplat-name=league_client_riotgames_com
+	--app-port=54571
+	--bugsplat-platform-id=NA1
+	--app-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T20-13-48_9132_LeagueClient.log
+	--primary-ux-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T20-13-48_4468_LeagueClientUx.log
+000000.000|   OKAY| Memory Monitor enabled:
+000000.000|   OKAY| - update interval 5s
+000000.000|   OKAY| - memory delta threshold 10MiB
+000000.000|   OKAY| - page fault delta threshold 100K
+000000.000|   OKAY| - region count delta threshold 10
+000000.009|   OKAY| Working Set Size: 8MiB Peak: 8MiB   Pagefile Usage: 8MiB Peak: 8MiB   Private Usage: 8MiB
+000000.009|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+000000.009|   OKAY| Committed Total: 131MiB   Committed Image: 112MiB   Committed Mapped: 13MiB   Committed Private: 5MiB   Reserved Total: 31MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 9MiB   Free Total: 3932MiB   Limit: 4095MiB   Largest Free: 2023MiB   Region Count: 467
+000000.009|   OKAY| Page Fault Count: 2K
+000005.009|   OKAY| Working Set Size: 55MiB (+47) Peak: 56MiB (+48)   Pagefile Usage: 46MiB (+38) Peak: 46MiB (+38)   Private Usage: 46MiB (+38)
+000025.061|   OKAY| Working Set Size: 41MiB (-14) Peak: 56MiB (+0)
+000035.061|   OKAY| Working Set Size: 52MiB (+11) Peak: 56MiB (+0)
+000045.089|   OKAY| Pagefile Usage: 56MiB (+10) Peak: 56MiB (+10)   Private Usage: 56MiB (+10)
+000140.109|   OKAY| Working Set Size: 74MiB (+22) Peak: 74MiB (+18)
+000140.109|   OKAY| Page Fault Count: 115K (+113)
+000155.111|   OKAY| Working Set Size: 57MiB (-17) Peak: 74MiB (+0)
+000195.148|   OKAY| Working Set Size: 89MiB (+32) Peak: 107MiB (+33)   Pagefile Usage: 82MiB (+26) Peak: 84MiB (+28)   Private Usage: 82MiB (+26)
+000195.148|   OKAY| Page Fault Count: 222K (+107)
+000215.159|   OKAY| Working Set Size: 99MiB (+10) Peak: 109MiB (+2)
+000215.159|   OKAY| Page Fault Count: 327K (+105)
+000220.159|   OKAY| Pagefile Usage: 93MiB (+11) Peak: 93MiB (+9)   Private Usage: 93MiB (+11)
+000230.160|   OKAY| Working Set Size: 110MiB (+11) Peak: 117MiB (+8)
+000235.160|   OKAY| Working Set Size: 93MiB (-17) Peak: 117MiB (+0)
+000245.161|   OKAY| Page Fault Count: 454K (+127)
+000250.161|   OKAY| Working Set Size: 114MiB (+21) Peak: 125MiB (+8)   Pagefile Usage: 101MiB (+8) Peak: 104MiB (+11)
+000255.162|   OKAY| Working Set Size: 104MiB (-10) Peak: 125MiB (+0)
+000265.168|   OKAY| Page Fault Count: 568K (+114)
+000270.174|   OKAY| Working Set Size: 92MiB (-12) Peak: 125MiB (+0)
+000275.174|   OKAY| Pagefile Usage: 90MiB (-11) Peak: 104MiB (+0)
+000310.180|   OKAY| Page Fault Count: 677K (+109)
+001495.278|   OKAY| Working Set Size: 80MiB (-12) Peak: 132MiB (+7)
+001800.309|   OKAY| Working Set Size: 91MiB (+11) Peak: 132MiB (+0)
+001810.309|   OKAY| Working Set Size: 81MiB (-10) Peak: 132MiB (+0)
+001835.312|   OKAY| Page Fault Count: 782K (+105)
+001840.314|   OKAY| Working Set Size: 91MiB (+10) Peak: 132MiB (+0)
+001850.314|   OKAY| Working Set Size: 79MiB (-12) Peak: 132MiB (+0)
+001925.324|   OKAY| Working Set Size: 92MiB (+13) Peak: 132MiB (+0)
+001950.326|   OKAY| Working Set Size: 114MiB (+22) Peak: 132MiB (+0)   Pagefile Usage: 100MiB (+10) Peak: 104MiB (+0)
+001950.326|   OKAY| Page Fault Count: 890K (+108)
+001955.327|   OKAY| Working Set Size: 93MiB (-21) Peak: 132MiB (+0)
+001960.327|   OKAY| Pagefile Usage: 90MiB (-10) Peak: 104MiB (+0)
+001990.329|   OKAY| Working Set Size: 104MiB (+11) Peak: 132MiB (+0)
+001995.330|   OKAY| Page Fault Count: 990K (+100)
+002005.330|   OKAY| Working Set Size: 90MiB (-14) Peak: 132MiB (+0)
+002010.330|   OKAY| Working Set Size: 111MiB (+21) Peak: 132MiB (+0)   Pagefile Usage: 101MiB (+11) Peak: 104MiB (+0)
+002015.330|   OKAY| Private Usage: 103MiB (+10)
+002020.330|   OKAY| Working Set Size: 93MiB (-18) Peak: 132MiB (+0)
+002025.331|   OKAY| Working Set Size: 110MiB (+17) Peak: 132MiB (+0)
+002030.331|   OKAY| Working Set Size: 99MiB (-11) Peak: 132MiB (+0)
+002030.331|   OKAY| Page Fault Count: 1091K (+101)
+002040.331|   OKAY| Working Set Size: 115MiB (+16) Peak: 132MiB (+0)
+002045.332|   OKAY| Working Set Size: 97MiB (-18) Peak: 132MiB (+0)
+002055.333|   OKAY| Working Set Size: 86MiB (-11) Peak: 132MiB (+0)   Private Usage: 92MiB (-11)
+002060.333|   OKAY| Pagefile Usage: 90MiB (-11) Peak: 106MiB (+2)
+002100.357|   OKAY| Working Set Size: 99MiB (+13) Peak: 132MiB (+0)
+002105.358|   OKAY| Working Set Size: 89MiB (-10) Peak: 132MiB (+0)
+004175.558|   OKAY| Page Fault Count: 1195K (+104)
+004190.560|   OKAY| Working Set Size: 99MiB (+10) Peak: 132MiB (+0)
+004200.561|   OKAY| Working Set Size: 87MiB (-12) Peak: 132MiB (+0)
+004285.573|   OKAY| Working Set Size: 105MiB (+18) Peak: 132MiB (+0)   Pagefile Usage: 101MiB (+11) Peak: 106MiB (+0)
+004285.573|   OKAY| Page Fault Count: 1328K (+133)
+004290.573|   OKAY| Private Usage: 105MiB (+13)
+004305.574|   OKAY| Working Set Size: 94MiB (-11) Peak: 132MiB (+0)
+004330.577|   OKAY| Working Set Size: 108MiB (+14) Peak: 132MiB (+0)
+004330.577|   OKAY| Page Fault Count: 1433K (+105)
+004350.579|   OKAY| Working Set Size: 95MiB (-13) Peak: 132MiB (+0)
+004355.596|   OKAY| Working Set Size: 107MiB (+12) Peak: 132MiB (+0)
+004360.596|   OKAY| Page Fault Count: 1545K (+112)
+004370.596|   OKAY| Working Set Size: 94MiB (-13) Peak: 132MiB (+0)
+004385.603|   OKAY| Working Set Size: 112MiB (+18) Peak: 132MiB (+0)
+004395.604|   OKAY| Working Set Size: 101MiB (-11) Peak: 138MiB (+6)
+004395.604|   OKAY| Page Fault Count: 1659K (+114)
+004415.605|   OKAY| Working Set Size: 91MiB (-10) Peak: 138MiB (+0)
+004435.606|   OKAY| Working Set Size: 104MiB (+13) Peak: 138MiB (+0)
+004455.616|   OKAY| Page Fault Count: 1759K (+100)
+004465.617|   OKAY| Working Set Size: 94MiB (-10) Peak: 138MiB (+0)
+006635.804|   OKAY| Working Set Size: 107MiB (+13) Peak: 138MiB (+0)
+006645.804|   OKAY| Working Set Size: 93MiB (-14) Peak: 138MiB (+0)
+006650.817|   OKAY| Working Set Size: 106MiB (+13) Peak: 138MiB (+0)
+006650.817|   OKAY| Page Fault Count: 1872K (+113)
+006660.818|   OKAY| Working Set Size: 92MiB (-14) Peak: 138MiB (+0)
+007835.927|   OKAY| Working Set Size: 102MiB (+10) Peak: 138MiB (+0)
+007845.927|   OKAY| Page Fault Count: 1972K (+100)
+007860.933|   OKAY| Working Set Size: 135MiB (+33) Peak: 141MiB (+3)   Pagefile Usage: 112MiB (+11) Peak: 112MiB (+6)
+007865.934|   OKAY| Working Set Size: 105MiB (-30) Peak: 141MiB (+0)
+007875.934|   OKAY| Working Set Size: 95MiB (-10) Peak: 141MiB (+0)   Pagefile Usage: 101MiB (-11) Peak: 112MiB (+0)
+007880.936|   OKAY| Page Fault Count: 2077K (+105)
+007890.936|   OKAY| Working Set Size: 125MiB (+30) Peak: 141MiB (+0)
+007895.937|   OKAY| Working Set Size: 99MiB (-26) Peak: 141MiB (+0)
+007915.939|   OKAY| Page Fault Count: 2177K (+100)
+007925.940|   OKAY| Working Set Size: 117MiB (+18) Peak: 141MiB (+0)   Pagefile Usage: 112MiB (+11) Peak: 113MiB (+1)
+007930.940|   OKAY| Working Set Size: 103MiB (-14) Peak: 141MiB (+0)
+007955.951|   OKAY| Working Set Size: 119MiB (+16) Peak: 141MiB (+0)
+007955.951|   OKAY| Page Fault Count: 2285K (+108)
+007960.951|   OKAY| Working Set Size: 105MiB (-14) Peak: 141MiB (+0)
+007970.954|   OKAY| Working Set Size: 135MiB (+30) Peak: 141MiB (+0)   Private Usage: 118MiB (+13)
+007980.956|   OKAY| Working Set Size: 106MiB (-29) Peak: 148MiB (+7)
+007985.956|   OKAY| Private Usage: 106MiB (-12)
+008005.957|   OKAY| Page Fault Count: 2394K (+109)
+008010.957|   OKAY| Working Set Size: 96MiB (-10) Peak: 148MiB (+0)   Pagefile Usage: 102MiB (-10) Peak: 118MiB (+5)
+008040.971|   OKAY| Working Set Size: 111MiB (+15) Peak: 148MiB (+0)
+008045.971|   OKAY| Working Set Size: 99MiB (-12) Peak: 148MiB (+0)
+009481.252|   OKAY| Working Set Size: 110MiB (+11) Peak: 148MiB (+0)
+009496.254|   OKAY| Working Set Size: 100MiB (-10) Peak: 148MiB (+0)

@@ -1,0 +1,9 @@
+000000.000| ALWAYS| Logging started at 2018-04-16T23:06:22.827
+000000.000|   OKAY| Running in Launcher Mode (Version Switcher) from cwd 'C:\Riot Games\League of Legends'.
+000000.000| ALWAYS| Application Version:8.7.223.9193 - CL:2239193 - Build Date:Mar 29 2018 - Build Time:18:32:32
+000000.000|   OKAY| Initial working directory: "C:\Riot Games\League of Legends"
+000000.000|   OKAY| Current process: "C:\Riot Games\League of Legends\LeagueClient.exe"
+000000.000|   OKAY| Command line arguments:
+000000.001|   OKAY| Launching release '0.0.0.109'.
+000000.001|   OKAY| Riot::RADS::Common::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/solutionmanifest")
+000000.001|   OKAY| Riot::RADS::Common::SolutionManifest::Load: Succeeded

@@ -1,0 +1,60 @@
+000000.000| ALWAYS| Logging started at 2018-04-16T22:52:13.594
+000000.000| ALWAYS| Application Version:8.7.223.9193 - CL:2239193 - Build Date: Mar 29 2018 - Build Time:18:32:24
+000000.000| ALWAYS| Log file C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_12000_LeagueClientUxHelper-gpu-process.log
+000000.000| ALWAYS| Running LeagueClientUxHelper version 8.7.223.9193
+000000.000|   OKAY| Initial working directory: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy"
+000000.000|   OKAY| Current process: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\LeagueClientUxRender.exe"
+000000.000|   OKAY| Command line arguments:
+	--type=gpu-process
+	--channel=9000.0.1137773696\1211345232
+	--no-sandbox
+	--lang=en-US
+	--log-file=C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log
+	--supports-dual-gpus=false
+	--gpu-driver-bug-workarounds=3,11,25,54,64
+	--gpu-vendor-id=0x10de
+	--gpu-device-id=0x13c2
+	--gpu-driver-vendor=NVIDIA
+	--gpu-driver-version=23.21.13.9101
+	--lang=en-US
+	--log-file=C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\debug.log
+	/prefetch:2
+	--app-name=LeagueClient
+	--ux-name=LeagueClientUx
+	--ux-helper-name=LeagueClientUxHelper
+	--log-dir=LeagueClient Logs
+	--bugsplat-name=league_client_riotgames_com
+	--app-port=53888
+	--bugsplat-platform-id=NA1
+	--app-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_7660_LeagueClient.log
+	--primary-ux-log-file-path=C:/Riot Games/League of Legends/Logs/LeagueClient Logs/2018-04-16T22-52-13_9000_LeagueClientUx.log
+000000.000|   OKAY| Memory Monitor enabled:
+000000.000|   OKAY| - update interval 5s
+000000.000|   OKAY| - memory delta threshold 10MiB
+000000.000|   OKAY| - page fault delta threshold 100K
+000000.000|   OKAY| - region count delta threshold 10
+000000.012|   OKAY| Working Set Size: 8MiB Peak: 8MiB   Pagefile Usage: 8MiB Peak: 8MiB   Private Usage: 8MiB
+000000.012|   OKAY| Paged Pool Usage: 0MiB Peak: 0MiB   Non-Paged Pool Usage: 0MiB Peak: 0MiB
+000000.012|   OKAY| Committed Total: 131MiB   Committed Image: 112MiB   Committed Mapped: 13MiB   Committed Private: 5MiB   Reserved Total: 31MiB   Reserved Image: 0MiB   Reserved Mapped: 21MiB   Reserved Private: 9MiB   Free Total: 3932MiB   Limit: 4095MiB   Largest Free: 2021MiB   Region Count: 466
+000000.012|   OKAY| Page Fault Count: 2K
+000005.014|   OKAY| Working Set Size: 52MiB (+44) Peak: 53MiB (+45)   Pagefile Usage: 46MiB (+38) Peak: 47MiB (+39)   Private Usage: 46MiB (+38)
+000015.014|   OKAY| Working Set Size: 42MiB (-10) Peak: 56MiB (+3)
+000045.040|   OKAY| Working Set Size: 52MiB (+10) Peak: 59MiB (+3)   Pagefile Usage: 56MiB (+10) Peak: 56MiB (+9)   Private Usage: 56MiB (+10)
+000075.044|   OKAY| Working Set Size: 52MiB (+0) Peak: 70MiB (+11)
+000090.054|   OKAY| Working Set Size: 70MiB (+18) Peak: 76MiB (+6)
+000090.054|   OKAY| Page Fault Count: 112K (+110)
+000095.057|   OKAY| Working Set Size: 58MiB (-12) Peak: 76MiB (+0)
+000630.111|   OKAY| Page Fault Count: 216K (+104)
+000655.112|   OKAY| Working Set Size: 81MiB (+23) Peak: 81MiB (+5)   Pagefile Usage: 75MiB (+19) Peak: 75MiB (+19)   Private Usage: 75MiB (+19)
+000660.112|   OKAY| Working Set Size: 77MiB (-4) Peak: 97MiB (+16)
+000675.113|   OKAY| Working Set Size: 89MiB (+12) Peak: 97MiB (+0)
+000680.115|   OKAY| Page Fault Count: 323K (+107)
+000690.147|   OKAY| Working Set Size: 79MiB (-10) Peak: 98MiB (+1)
+000700.148|   OKAY| Pagefile Usage: 86MiB (+11) Peak: 86MiB (+11)   Private Usage: 86MiB (+11)
+000720.185|   OKAY| Working Set Size: 100MiB (+21) Peak: 100MiB (+2)
+000720.185|   OKAY| Page Fault Count: 428K (+105)
+000725.187|   OKAY| Working Set Size: 87MiB (-13) Peak: 108MiB (+8)
+000740.191|   OKAY| Pagefile Usage: 92MiB (+6) Peak: 98MiB (+12)
+000745.215|   OKAY| Working Set Size: 101MiB (+14) Peak: 120MiB (+12)
+000750.227|   OKAY| Working Set Size: 88MiB (-13) Peak: 120MiB (+0)
+000845.247|   OKAY| Page Fault Count: 528K (+100)

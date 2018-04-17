@@ -1,0 +1,72 @@
+000000.000| ALWAYS| Logging started at 2018-04-16T23:06:22.858
+000000.000|   OKAY| Running in Standard Mode from cwd 'C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy'.
+000000.000| ALWAYS| Application Version:8.7.223.9193 - CL:2239193 - Build Date:Mar 29 2018 - Build Time:18:32:32
+000000.000|   OKAY| Initial working directory: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy"
+000000.001|   OKAY| Current process: "C:\Riot Games\League of Legends\RADS\projects\league_client\releases\0.0.0.139\deploy\LeagueClient.exe"
+000000.001|   OKAY| Command line arguments:
+	--release=0.0.0.109
+000000.006| ALWAYS| The following message is prepared to be sent to dradis:
+Event Name: riot__rclient__settings__event
+common.os_platform: Windows
+common.application_name: LeagueClient
+event_name: load_user_settings_succeeded
+common.application_version: 8.7.223.9193
+common.os_version_major: 10
+common.machine_id: wi8VTISAXk+1ctJaDkchhA==
+common.os_version_minor: 
+common.os_edition: Professional, x64
+000000.006| ALWAYS| Queued Dradis event to be sent.
+000000.006|   OKAY| Riot::RADS::Reader::RadsMain::Initialize: RADS library initializing with specified working directory "C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/deploy/".
+000000.006|   OKAY| Riot::RADS::Reader::RuntimeEnvironment::Create: Creating RADS runtime environment: RADS root directory = "C:/Riot Games/League of Legends/RADS"
+000000.006|   OKAY| Riot::RADS::Reader::SolutionManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/solutionmanifest")
+000000.006|   OKAY| Riot::RADS::Reader::ConfigurationManifest::Load: ("C:/Riot Games/League of Legends/RADS/solutions/league_client_sln/releases/0.0.0.109/configurationmanifest")
+000000.006|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/league_client_en_us/releases/0.0.0.109/releasemanifest")
+000000.007|   OKAY| Riot::RADS::Reader::ReleaseManifest::LoadInternal: ("C:/Riot Games/League of Legends/RADS/projects/league_client/releases/0.0.0.139/releasemanifest")
+000000.023| ALWAYS| Running LeagueClient version 8.7.223.9193
+000000.069| ALWAYS| The following message is prepared to be sent to dradis:
+Event Name: riot__rclient__event
+common.application_name: LeagueClient
+common.game_data_build_id: 7468297
+common.application_version: 8.7.223.9193
+common.code_build_id: 7468234
+common.locale: en_US
+common.content_build_id: 7553393
+common.installation_id: 9uAcUQ==
+common.os_version_major: 10
+common.machine_id: wi8VTISAXk+1ctJaDkchhA==
+common.os_edition: Professional, x64
+common.os_platform: Windows
+common.os_version_minor: 
+common.region: NA
+event_name: app_start
+000000.069| ALWAYS| Queued Dradis event to be sent.
+000000.073| ALWAYS|             Plugin Manager| Loaded plugin manifest file plugin-manifest.json.
+000000.089|   WARN|             Plugin Manager| Plugin desc for rcp-be-lol-premade-voice should specify "hasBundlesAssets"="false" if it doesn't have bundled assets or specify either "globalAssetBundles" or "perLocaleAssetBundles" if it has bundled assets.
+000000.106|   OKAY| Creating 19 dispatchers for parallel queue 1
+000000.106|   WARN| Running at the limit of 16 concurrent dispatchers.
+000000.106|   OKAY| Creating 17 dispatchers for concurrent queue 2
+000000.239| ALWAYS| Bringing LeagueClient window to foreground
+000000.239|   OKAY| ClientWebSocketTransport: Statistics at socket close:
+000000.239|   OKAY| Reads - Count : 2   Total Bytes: 144   Average Bytes: 72
+000000.239|   OKAY| Writes - Count : 2   Total Bytes: 312   Average Bytes: 156
+000000.239|   OKAY| EINTRs: 0
+000000.240|   OKAY| Client already running, exiting.
+000000.260| ALWAYS| The following message is prepared to be sent to dradis:
+Event Name: riot__rclient__event
+common.application_name: LeagueClient
+common.game_data_build_id: 7468297
+common.application_version: 8.7.223.9193
+common.code_build_id: 7468234
+common.locale: en_US
+common.content_build_id: 7553393
+common.installation_id: 9uAcUQ==
+common.os_version_major: 10
+common.machine_id: wi8VTISAXk+1ctJaDkchhA==
+common.os_edition: Professional, x64
+common.os_platform: Windows
+common.os_version_minor: 
+common.region: NA
+event_name: app_terminate
+000000.260| ALWAYS| Queued Dradis event to be sent.
+000000.264|   OKAY| EventCollector: 3 events remaining after thread join
+000000.671|   OKAY| Shut down EventCollector in 407 milliseconds
